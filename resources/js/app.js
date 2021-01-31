@@ -24,6 +24,7 @@ Vue.use(Vuex);
 Vue.use(Vuetify);
 
 Vue.component('index', require('./Index').default);
+Vue.component('header-view', require('./components/globals/Header').default);
 
 
 
